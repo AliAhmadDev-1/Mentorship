@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Local development APIs use private IP addresses over HTTP. -->
+    <base-config cleartextTrafficPermitted="true" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">micro-mentor-alb-869670005.us-east-1.elb.amazonaws.com</domain>
+    </domain-config>
+</network-security-config>
